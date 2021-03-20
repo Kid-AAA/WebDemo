@@ -1,4 +1,4 @@
-const unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json");
+const unityInstance = UnityLoader.instantiate("unityContainer", "Build/MarkerlessAR.json");
 let isCameraReady = false;
 let isDetectionManagerReady = false;
 let gl = null;
